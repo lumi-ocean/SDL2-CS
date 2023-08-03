@@ -3574,6 +3574,9 @@ namespace SDL2
 
 		#region SDL_pixels.h
 
+		public const byte SDL_ALPHA_OPAQUE = 255;
+		public const byte SDL_ALPHA_TRANSPARENT = 0;
+
 		public static uint SDL_DEFINE_PIXELFOURCC(byte A, byte B, byte C, byte D)
 		{
 			return SDL_FOURCC(A, B, C, D);
